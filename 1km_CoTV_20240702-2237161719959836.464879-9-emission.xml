@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-02 22:37:17 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/data/hongjian/CoTV-main//scenarios/CoTV/selected1km/selected1km.net.xml"/>
+        <route-files value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.rou.xml"/>
+        <additional-files value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-emission.xml"/>
+        <queue-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-queue.xml"/>
+        <tripinfo-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="15"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="44697"/>
+        <num-clients value="1"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.gui.cfg"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<emission-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/emission_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="1086_1.150" eclass="HBEFA3/PC_G_EU4" CO2="2090.90" CO="42.23" HC="0.24" NOx="0.74" PMx="0.02" fuel="666.93" electricity="0.00" noise="60.14" route="route554991019_to_-369988978#5_0" type="rl" waiting="0.00" lane="554991019_0" pos="25.02" speed="7.72" angle="6.80" x="4290.35" y="2240.01"/>
+        <vehicle id="1087_2.84" eclass="HBEFA3/PC_G_EU4" CO2="2089.97" CO="40.85" HC="0.23" NOx="0.74" PMx="0.02" fuel="666.63" electricity="0.00" noise="60.22" route="route554991019_to_31008695_0" type="rl" waiting="0.00" lane="554991019_0" pos="3.59" speed="7.84" angle="6.92" x="4287.82" y="2218.73"/>
+        <vehicle id="1088_3.460" eclass="HBEFA3/PC_G_EU4" CO2="2088.75" CO="34.59" HC="0.20" NOx="0.73" PMx="0.02" fuel="666.24" electricity="0.00" noise="60.63" route="route554991019_to_228818597#0_0" type="rl" waiting="0.00" lane="554991019_0" pos="59.42" speed="8.41" angle="6.80" x="4294.42" y="2274.16"/>
+        <vehicle id="1164_3.66" eclass="HBEFA3/PC_G_EU4" CO2="2094.71" CO="46.17" HC="0.26" NOx="0.76" PMx="0.02" fuel="668.14" electricity="0.00" noise="59.90" route="route-15464769#0_to_300665713_0" type="rl" waiting="0.00" lane="-15464769#0_0" pos="10.28" speed="7.38" angle="19.52" x="4401.51" y="2127.52"/>
+        <vehicle id="1165_4.50" eclass="HBEFA3/PC_G_EU4" CO2="2089.21" CO="33.18" HC="0.20" NOx="0.72" PMx="0.02" fuel="666.39" electricity="0.00" noise="60.73" route="route-15464769#0_to_77799819_0" type="rl" waiting="0.00" lane="-15464769#0_0" pos="27.96" speed="8.55" angle="19.52" x="4407.41" y="2144.18"/>
+        <vehicle id="123_2.81" eclass="HBEFA3/PC_G_EU4" CO2="2093.04" CO="28.40" HC="0.17" NOx="0.71" PMx="0.01" fuel="667.61" electricity="0.00" noise="61.06" route="route-3791031#3_to_8023824#0_0" type="rl" waiting="0.00" lane="-3791031#3_0" pos="61.47" speed="9.02" angle="116.62" x="5213.50" y="2336.20"/>
+        <vehicle id="124_3.130" eclass="HBEFA3/PC_G_EU4" CO2="2090.14" CO="31.50" HC="0.19" NOx="0.72" PMx="0.02" fuel="666.68" electricity="0.00" noise="60.84" route="route-3791031#3_to_13866328#0_0" type="rl" waiting="0.00" lane="-3791031#3_0" pos="92.96" speed="8.71" angle="116.62" x="5241.66" y="2322.09"/>
+        <vehicle id="125_4.82" eclass="HBEFA3/PC_G_EU4" CO2="2090.22" CO="31.39" HC="0.19" NOx="0.72" PMx="0.02" fuel="666.71" electricity="0.00" noise="60.85" route="route-3791031#3_to_57362482_0" type="rl" waiting="0.00" lane="-3791031#3_0" pos="33.08" speed="8.72" angle="116.62" x="5188.13" y="2348.92"/>
+        <vehicle id="126_5.33" eclass="HBEFA3/PC_G_EU4" CO2="2097.89" CO="25.15" HC="0.16" NOx="0.71" PMx="0.01" fuel="669.15" electricity="0.00" noise="61.31" route="route-3791031#3_to_-13866344#2_0" type="rl" waiting="0.00" lane="-3791031#3_0" pos="7.54" speed="9.35" angle="116.58" x="5165.37" y="2360.51"/>
+        <vehicle id="157_1.243" eclass="HBEFA3/PC_G_EU4" CO2="2090.15" CO="41.14" HC="0.23" NOx="0.74" PMx="0.02" fuel="666.69" electricity="0.00" noise="60.21" route="route3791745#0_to_23045782_0" type="rl" waiting="0.00" lane="3791745#0_0" pos="43.85" speed="7.82" angle="84.24" x="4401.31" y="2611.31"/>
+        <vehicle id="158_2.298" eclass="HBEFA3/PC_G_EU4" CO2="2102.71" CO="51.70" HC="0.28" NOx="0.77" PMx="0.02" fuel="670.70" electricity="0.00" noise="59.59" route="route-3791745#3_to_54451008#1_0" type="rl" waiting="0.00" lane="-3791745#3_0" pos="2.70" speed="6.92" angle="264.16" x="4417.18" y="2603.27"/>
+        <vehicle id="356_1.1336" eclass="HBEFA3/PC_G_EU4" CO2="2183.69" CO="80.71" HC="0.42" NOx="0.87" PMx="0.03" fuel="696.53" electricity="0.00" noise="58.21" route="route3792490#0_to_-25536468_0" type="rl" waiting="0.00" lane="3792490#0_0" pos="99.00" speed="4.78" angle="111.63" x="5080.30" y="1967.67"/>
+        <vehicle id="357_2.143" eclass="HBEFA3/PC_G_EU4" CO2="2089.37" CO="32.83" HC="0.19" NOx="0.72" PMx="0.02" fuel="666.44" electricity="0.00" noise="60.75" route="route3792490#0_to_43321720#2_0" type="rl" waiting="0.00" lane="3792490#0_0" pos="65.55" speed="8.58" angle="111.66" x="5049.20" y="1980.00"/>
+        <vehicle id="541_6.427" eclass="HBEFA3/PC_G_EU4" CO2="2103.66" CO="52.24" HC="0.28" NOx="0.77" PMx="0.02" fuel="671.00" electricity="0.00" noise="59.56" route="route4629169#5_to_129211823#0_0" type="rl" waiting="0.00" lane="4629169#5_0" pos="187.68" speed="6.88" angle="80.06" x="4851.12" y="1746.43"/>
+        <vehicle id="543_1.327" eclass="HBEFA3/PC_G_EU4" CO2="2088.57" CO="36.28" HC="0.21" NOx="0.73" PMx="0.02" fuel="666.18" electricity="0.00" noise="60.52" route="route2110697#0_to_75450412_0" type="rl" waiting="0.00" lane="2110697#0_0" pos="260.36" speed="8.26" angle="287.42" x="4421.32" y="2040.80"/>
+        <vehicle id="544_4.166" eclass="HBEFA3/PC_G_EU4" CO2="2088.73" CO="37.74" HC="0.22" NOx="0.73" PMx="0.02" fuel="666.24" electricity="0.00" noise="60.42" route="route2110697#0_to_-54451006#1_0" type="rl" waiting="0.00" lane="2110697#0_0" pos="47.31" speed="8.12" angle="22.95" x="4522.71" y="1930.61"/>
+        <vehicle id="632_1.147" eclass="HBEFA3/PC_G_EU4" CO2="2519.41" CO="147.79" HC="0.73" NOx="1.13" PMx="0.06" fuel="803.63" electricity="0.00" noise="56.27" route="route229823258_to_-31350775#5_0" type="rl" waiting="0.00" lane="229823258_0" pos="4.65" speed="0.86" angle="41.07" x="4275.92" y="1877.65"/>
+        <vehicle id="694_3.131" eclass="HBEFA3/PC_G_EU4" CO2="2098.53" CO="49.06" HC="0.27" NOx="0.76" PMx="0.02" fuel="669.36" electricity="0.00" noise="59.73" route="route26545993#0_to_110403205#0_0" type="rl" waiting="0.00" lane="26545993#0_0" pos="96.13" speed="7.14" angle="107.32" x="5114.93" y="2377.40"/>
+        <vehicle id="718_3.138" eclass="HBEFA3/PC_G_EU4" CO2="2093.87" CO="27.74" HC="0.17" NOx="0.71" PMx="0.01" fuel="667.87" electricity="0.00" noise="61.11" route="route317003249#1_to_228818579#6_0" type="rl" waiting="0.00" lane="317003249#1_0" pos="0.48" speed="9.09" angle="359.16" x="4352.79" y="2479.84"/>
+        <vehicle id="853_2.406" eclass="HBEFA3/PC_G_EU4" CO2="2088.76" CO="34.57" HC="0.20" NOx="0.73" PMx="0.02" fuel="666.24" electricity="0.00" noise="60.63" route="route-53750892#4_to_-129211816#2_0" type="rl" waiting="0.00" lane="-53750892#4_0" pos="9.63" speed="8.42" angle="22.90" x="4905.00" y="2054.56"/>
+        <vehicle id="854_3.86" eclass="HBEFA3/PC_G_EU4" CO2="2090.17" CO="41.18" HC="0.23" NOx="0.74" PMx="0.02" fuel="666.70" electricity="0.00" noise="60.20" route="route-53750892#4_to_-22716631#2_0" type="rl" waiting="0.00" lane="-53750892#4_0" pos="115.51" speed="7.81" angle="17.07" x="4943.72" y="2152.97"/>
+        <vehicle id="986_3.201" eclass="HBEFA3/PC_G_EU4" CO2="2103.60" CO="22.41" HC="0.15" NOx="0.70" PMx="0.01" fuel="670.97" electricity="0.00" noise="61.52" route="route4074526#0_to_32015770_0" type="rl" waiting="0.00" lane="4074526#0_0" pos="64.92" speed="9.65" angle="350.39" x="4473.67" y="1545.62"/>
+    </timestep>
+</emission-export>

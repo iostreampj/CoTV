@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-02 22:37:17 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/data/hongjian/CoTV-main//scenarios/CoTV/selected1km/selected1km.net.xml"/>
+        <route-files value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.rou.xml"/>
+        <additional-files value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-emission.xml"/>
+        <queue-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-queue.xml"/>
+        <tripinfo-output value="/data/hongjian/CoTV-main/output/1km_CoTV/1km_CoTV_20240702-2237161719959836.464879-9-tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="15"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="44697"/>
+        <num-clients value="1"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="/tmp/flow/debug/cfg/1km_CoTV_20240702-2237161719959836.464879.gui.cfg"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
